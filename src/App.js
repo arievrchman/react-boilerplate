@@ -10,7 +10,7 @@ const App = () => (
       alignItems: 'center',
     }}
   >
-    <h1>Hello World!</h1>
+    <h1 className="red">Hello World!</h1>
   </div>
 );
 

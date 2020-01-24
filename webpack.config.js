@@ -47,7 +47,7 @@ module.exports = (env) => {
           use: ['react-hot-loader/webpack', 'babel-loader'],
         },
         {
-          test: /\.css$/,
+          test: /\.(sa|sc|c)ss$/,
           use: [
             isDevelopment ? 'style-loader' : MiniCssExtractPlugin.loader,
             'css-loader',
@@ -60,6 +60,9 @@ module.exports = (env) => {
                   ...(isProduction ? [purgecss] : []),
                 ],
               },
+            },
+            {
+              loader: 'sass-loader',
             },
           ],
         },
