@@ -1,6 +1,6 @@
-# React Starter
+# React Boilerplate
 
-React Starter with minimum setup and configurable for create modern React apps, build on **Webpack 4 and Babel 7** and support **hot reloading**, with **Airbnb style guide**.
+React Boilerplate with minimum setup and configurable for create modern React apps, build on **Webpack 4 and Babel 7** and support **hot reloading**, with **Airbnb style guide**.
 
 ### Note
 
